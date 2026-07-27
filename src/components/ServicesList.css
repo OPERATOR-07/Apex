@@ -1,0 +1,144 @@
+.services-list {
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.services-list-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services-list-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.services-badge {
+  display: inline-block;
+  background: #7b1315;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 6px 18px;
+  border-radius: 50px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.services-list-header h2 {
+  font-size: 2.2rem;
+  color: #7b1315;
+  margin-bottom: 10px;
+}
+
+.services-subtitle {
+  font-size: 1rem;
+  color: #565555;
+  max-width: 550px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.service-item {
+  background: #fffcfc;
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.service-item:hover {
+  border-color: rgba(123,19,21,0.12);
+  box-shadow: 0 8px 30px rgba(123,19,21,0.06);
+  transform: translateY(-2px);
+}
+
+.service-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  background: rgba(123,19,21,0.08);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-item-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.service-item-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #7b1315;
+  margin-bottom: 4px;
+}
+
+.service-item-desc {
+  font-size: 0.85rem;
+  color: #565555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.btn-enquire {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  background: linear-gradient(90deg, #7b1315 0%, #ee2b36 100%);
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.btn-enquire:hover {
+  opacity: 0.9;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 975px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 575px) {
+  .services-list {
+    padding: 50px 15px;
+  }
+  .services-list-header h2 {
+    font-size: 1.6rem;
+  }
+  .service-item {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+  .service-icon {
+    margin: 0 auto;
+  }
+  .btn-enquire {
+    align-self: stretch;
+    justify-content: center;
+  }
+}
