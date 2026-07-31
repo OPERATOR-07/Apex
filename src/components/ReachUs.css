@@ -48,17 +48,19 @@
 }
 
 .reach-card {
-  background: #fffcfc;
-  border: 1px solid rgba(123,19,21,0.08);
+  background: linear-gradient(135deg, #7b1315 0%, #c4282e 60%, #ee2b36 100%);
+  border: 1px solid rgba(255,255,255,0.15);
   border-radius: 14px;
   padding: 28px 20px;
   text-align: center;
+  color: #fff;
+  box-shadow: 0 6px 20px rgba(123,19,21,0.18);
   transition: all 0.3s ease;
 }
 
 .reach-card:hover {
-  border-color: rgba(123,19,21,0.25);
-  box-shadow: 0 8px 30px rgba(123,19,21,0.06);
+  border-color: rgba(255,255,255,0.35);
+  box-shadow: 0 12px 36px rgba(123,19,21,0.3);
   transform: translateY(-3px);
 }
 
@@ -71,6 +73,10 @@
   padding: 24px 30px;
 }
 
+.reach-card-full-wrap {
+  grid-column: 1 / -1;
+}
+
 .reach-card-full .reach-icon-wrap {
   margin: 0;
 }
@@ -79,36 +85,36 @@
   width: 52px;
   height: 52px;
   margin: 0 auto 16px;
-  background: rgba(123,19,21,0.08);
+  background: rgba(255,255,255,0.2);
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #7b1315;
+  color: #fff;
 }
 
 .reach-card h3 {
   font-size: 1rem;
   font-weight: 700;
-  color: #7b1315;
+  color: #fff;
   margin-bottom: 6px;
 }
 
 .reach-card p {
   font-size: 0.9rem;
-  color: #565555;
+  color: rgba(255,255,255,0.9);
   margin: 0;
   line-height: 1.5;
 }
 
 .reach-card a {
-  color: #565555;
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
 }
 
 .reach-card a:hover {
-  color: #7b1315;
+  color: #fff;
   text-decoration: underline;
 }
 

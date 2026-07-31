@@ -1,0 +1,42 @@
+/* Scroll reveal animations */
+.reveal {
+  opacity: 0;
+  transition:
+    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.reveal--up {
+  transform: translateY(40px);
+}
+
+.reveal--left {
+  transform: translateX(-44px);
+}
+
+.reveal--right {
+  transform: translateX(44px);
+}
+
+.reveal--zoom {
+  transform: scale(0.92);
+}
+
+.reveal--visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal--up,
+  .reveal--left,
+  .reveal--right,
+  .reveal--zoom {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

@@ -1,23 +1,25 @@
 import './WhyChooseUs.css';
+import { HospitalIcon, HandshakeIcon, MonitorIcon, ShieldIcon } from './Icons';
+import Reveal from './Reveal';
 
 const reasons = [
   {
-    icon: '🏥',
+    icon: HospitalIcon,
     title: 'Comprehensive Healthcare Access',
     text: 'From hospital appointments to home-based services, we cover every aspect of patient care.',
   },
   {
-    icon: '🤝',
+    icon: HandshakeIcon,
     title: 'Multi-Provider Network',
     text: 'We partner with top healthcare institutions and specialists to ensure the best care possible.',
   },
   {
-    icon: '💻',
+    icon: MonitorIcon,
     title: 'Technology-Driven Healthcare',
     text: 'Our online appointment system and tele-health services make healthcare more accessible.',
   },
   {
-    icon: '🛡️',
+    icon: ShieldIcon,
     title: 'Insurance-Covered Services',
     text: 'Our collaborations with major insurance providers make quality healthcare affordable.',
   },
@@ -28,22 +30,33 @@ export default function WhyChooseUs() {
     <section className="why-choose">
       <div className="why-inner">
         <div className="why-header">
-          <span className="why-badge">WHY APEX</span>
-          <h2 className="why-title">Why Choose Us</h2>
-          <p className="why-subtitle">
-            We redefine healthcare by putting you at the center of everything we do.
-          </p>
+          <Reveal>
+            <span className="why-badge">WHY APEX</span>
+          </Reveal>
+          <Reveal delay={80}>
+            <h2 className="why-title">Why Choose Us</h2>
+          </Reveal>
+          <Reveal delay={160}>
+            <p className="why-subtitle">
+              We redefine healthcare by putting you at the center of everything we do.
+            </p>
+          </Reveal>
         </div>
         <div className="why-grid">
-          {reasons.map((r, i) => (
-            <div className="why-card" key={i}>
-              <div className="why-icon-wrap">
-                <span className="why-icon-emoji">{r.icon}</span>
-              </div>
-              <h3 className="why-card-title">{r.title}</h3>
-              <p className="why-card-text">{r.text}</p>
-            </div>
-          ))}
+          {reasons.map((r, i) => {
+            const Icon = r.icon;
+            return (
+              <Reveal delay={i * 120} key={i}>
+                <div className="why-card">
+                  <div className="why-icon-wrap">
+                    <Icon size={28} />
+                  </div>
+                  <h3 className="why-card-title">{r.title}</h3>
+                  <p className="why-card-text">{r.text}</p>
+                </div>
+              </Reveal>
+            );
+          })}
         </div>
       </div>
     </section>

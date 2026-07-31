@@ -1,17 +1,18 @@
 import './AboutSection.css';
+import Reveal from './Reveal';
 
 export default function AboutSection() {
   return (
     <section className="about-section">
       <div className="about-inner">
-        <div className="about-image-col">
+        <Reveal direction="left" className="about-image-col">
           <img
-            src="/statics/WhatsApp Image 2026-07-25 at 21.31.17.jpeg"
+            src="/statics/WhatsApp Image 2026-07-25 at 21.31.10.jpeg"
             alt="About Apex Healthcare"
             className="about-image"
           />
-        </div>
-        <div className="about-content">
+        </Reveal>
+        <Reveal direction="right" className="about-content" delay={120}>
           <span className="about-badge">ABOUT US</span>
           <h2 className="about-heading">Who We Are</h2>
           <p className="about-text">
@@ -30,7 +31,7 @@ export default function AboutSection() {
             deserve.
           </p>
           <a href="/reach-us" className="btn-primary">Book an Appointment</a>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

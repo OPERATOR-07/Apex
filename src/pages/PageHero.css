@@ -364,6 +364,12 @@
   padding-top: 32px;
 }
 
+.page-step-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
 /* ==============================================
    NETWORK DETAIL
    ============================================== */
@@ -454,23 +460,25 @@
 }
 
 .contact-card {
-  background: #fff;
-  border: 1px solid rgba(123,19,21,0.08);
+  background: linear-gradient(135deg, #7b1315 0%, #c4282e 60%, #ee2b36 100%);
+  border: 1px solid rgba(255,255,255,0.15);
   border-radius: 14px;
   padding: 28px 22px;
   text-align: center;
+  color: #fff;
+  box-shadow: 0 6px 20px rgba(123,19,21,0.18);
   transition: all 0.3s ease;
 }
 
 .contact-card:hover {
-  border-color: rgba(123,19,21,0.2);
-  box-shadow: 0 8px 30px rgba(123,19,21,0.06);
+  border-color: rgba(255,255,255,0.35);
+  box-shadow: 0 12px 36px rgba(123,19,21,0.3);
   transform: translateY(-3px);
 }
 
 .contact-card--accent {
-  background: linear-gradient(135deg, #7b1315, #c4282e);
-  border-color: transparent;
+  background: linear-gradient(135deg, #5f0f11, #7b1315);
+  border-color: rgba(255,255,255,0.25);
   color: #fff;
 }
 
@@ -525,40 +533,41 @@
   width: 52px;
   height: 52px;
   margin: 0 auto 16px;
-  background: rgba(123,19,21,0.08);
+  background: rgba(255,255,255,0.2);
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #7b1315;
+  color: #fff;
 }
 
 .contact-card h3 {
   font-size: 1rem;
   font-weight: 700;
-  color: #7b1315;
+  color: #fff;
   margin-bottom: 8px;
 }
 
 .contact-detail {
   font-size: 1.05rem;
   font-weight: 600;
-  color: #565555;
+  color: rgba(255,255,255,0.95);
   margin-bottom: 10px;
 }
 
 .contact-detail a {
-  color: #7b1315;
+  color: #fff;
   text-decoration: none;
 }
 
 .contact-detail a:hover {
   text-decoration: underline;
+  color: #fff;
 }
 
 .contact-note {
   font-size: 0.85rem;
-  color: #888;
+  color: rgba(255,255,255,0.7);
   line-height: 1.5;
   margin: 0;
 }
@@ -658,6 +667,40 @@
   justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
+}
+
+/* Inline icon inside buttons */
+.btn-icon-inline {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: -3px;
+  margin-right: 8px;
+}
+
+/* Mobile floating WhatsApp button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  z-index: 999;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25d366;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(37, 211, 102, 0.55);
+  color: #fff;
+  text-decoration: none;
 }
 
 /* ==============================================

@@ -1,4 +1,5 @@
 import './ServicesList.css';
+import Reveal from './Reveal';
 
 const services = [
   { title: 'Clinic Consultations', desc: 'Comprehensive medical consultations and personalized treatment plans.' },
@@ -22,26 +23,34 @@ export default function ServicesList() {
     <section className="services-list">
       <div className="services-list-inner">
         <div className="services-list-header">
-          <span className="services-badge">WHAT WE OFFER</span>
-          <h2>Our Services</h2>
-          <p className="services-subtitle">
-            From routine consultations to specialized care — we cover every aspect of your health.
-          </p>
+          <Reveal>
+            <span className="services-badge">WHAT WE OFFER</span>
+          </Reveal>
+          <Reveal delay={80}>
+            <h2>Our Services</h2>
+          </Reveal>
+          <Reveal delay={160}>
+            <p className="services-subtitle">
+              From routine consultations to specialized care — we cover every aspect of your health.
+            </p>
+          </Reveal>
         </div>
         <div className="services-grid">
           {services.map((service, i) => (
-            <div className="service-item" key={i}>
-              <div className="service-icon">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#7b1315" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-                </svg>
+            <Reveal delay={(i % 2) * 120 + Math.floor(i / 2) * 60} key={i}>
+              <div className="service-item">
+                <div className="service-icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#7b1315" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                  </svg>
+                </div>
+                <div className="service-item-content">
+                  <h3 className="service-item-title">{service.title}</h3>
+                  <p className="service-item-desc">{service.desc}</p>
+                </div>
+                <a href="/reach-us" className="btn-enquire">Enquire Now</a>
               </div>
-              <div className="service-item-content">
-                <h3 className="service-item-title">{service.title}</h3>
-                <p className="service-item-desc">{service.desc}</p>
-              </div>
-              <a href="/reach-us" className="btn-enquire">Enquire Now</a>
-            </div>
+            </Reveal>
           ))}
         </div>
       </div>

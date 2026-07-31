@@ -12,6 +12,7 @@ import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
 import NetworksPage from './pages/NetworksPage';
 import ReachUsPage from './pages/ReachUsPage';
+import WhatsAppFloat from './components/WhatsAppFloat';
 import './App.css';
 
 function Home() {
@@ -40,6 +41,7 @@ export default function App() {
         <Route path="/reach-us" element={<ReachUsPage />} />
       </Routes>
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 }
