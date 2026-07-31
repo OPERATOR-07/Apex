@@ -1,6 +1,7 @@
 import './PageHero.css';
 import { HeartIcon, TargetIcon, HandshakeIcon, GlobeIcon } from '../components/Icons';
 import Reveal from '../components/Reveal';
+import { Link } from 'react-router-dom';
 
 const values = [
   { icon: HeartIcon, title: 'Compassion', text: 'Every patient receives the attention, respect, and kindness they deserve. We treat you like family.' },
@@ -138,8 +139,8 @@ export default function AboutPage() {
           </Reveal>
           <Reveal delay={200}>
             <div className="page-cta-actions">
-              <a href="/reach-us" className="btn-hero btn-hero-primary">Book an Appointment</a>
-              <a href="/reach-us" className="btn-hero btn-hero-secondary">Request a Home Visit</a>
+              <Link to="/reach-us" className="btn-hero btn-hero-primary">Book an Appointment</Link>
+              <Link to="/reach-us" className="btn-hero btn-hero-secondary">Request a Home Visit</Link>
             </div>
           </Reveal>
         </div>

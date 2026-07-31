@@ -1,4 +1,5 @@
 import './Hero.css';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -20,8 +21,8 @@ export default function Hero() {
           </p>
           <p className="hero-tagline">Your Trusted Healthcare Partner.</p>
           <div className="hero-actions">
-            <a href="/reach-us" className="btn-hero btn-hero-primary">Book an Appointment</a>
-            <a href="/reach-us" className="btn-hero btn-hero-secondary">Request a Home Visit</a>
+            <Link to="/reach-us" className="btn-hero btn-hero-primary">Book an Appointment</Link>
+            <Link to="/reach-us" className="btn-hero btn-hero-secondary">Request a Home Visit</Link>
           </div>
         </div>
         <div className="hero-image-col">

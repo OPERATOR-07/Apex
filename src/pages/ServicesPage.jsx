@@ -1,6 +1,7 @@
 import './PageHero.css';
 import { HospitalIcon, MicroscopeIcon, HomeIcon, PillIcon, BuildingIcon, PhoneIcon, WhatsAppIcon, MailIcon } from '../components/Icons';
 import Reveal from '../components/Reveal';
+import { Link } from 'react-router-dom';
 
 const serviceGroups = [
   {
@@ -146,7 +147,7 @@ export default function ServicesPage() {
           </Reveal>
           <Reveal delay={200}>
             <div className="page-cta-actions">
-              <a href="/reach-us" className="btn-hero btn-hero-primary">Get in Touch</a>
+              <Link to="/reach-us" className="btn-hero btn-hero-primary">Get in Touch</Link>
               <a href="https://wa.me/2557868441951" target="_blank" rel="noopener noreferrer" className="btn-hero btn-hero-secondary">
                 <span className="btn-icon-inline"><WhatsAppIcon size={18} /></span> WhatsApp Us
               </a>

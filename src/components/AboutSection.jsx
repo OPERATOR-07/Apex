@@ -1,5 +1,6 @@
 import './AboutSection.css';
 import Reveal from './Reveal';
+import { Link } from 'react-router-dom';
 
 export default function AboutSection() {
   return (
@@ -30,7 +31,7 @@ export default function AboutSection() {
             At Apex, every patient receives the attention, professionalism, and compassion they
             deserve.
           </p>
-          <a href="/reach-us" className="btn-primary">Book an Appointment</a>
+          <Link to="/reach-us" className="btn-primary">Book an Appointment</Link>
         </Reveal>
       </div>
     </section>

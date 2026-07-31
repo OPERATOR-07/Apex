@@ -1,5 +1,6 @@
 import './ReachUs.css';
 import Reveal from './Reveal';
+import { Link } from 'react-router-dom';
 
 export default function ReachUs() {
   return (
@@ -80,8 +81,8 @@ export default function ReachUs() {
           </Reveal>
         </div>
         <div className="reach-actions">
-          <a href="/reach-us" className="btn-hero btn-hero-primary">Book an Appointment</a>
-          <a href="/reach-us" className="btn-hero btn-hero-secondary-outline">Request a Home Visit</a>
+          <Link to="/reach-us" className="btn-hero btn-hero-primary">Book an Appointment</Link>
+          <Link to="/reach-us" className="btn-hero btn-hero-secondary-outline">Request a Home Visit</Link>
         </div>
       </div>
     </section>

@@ -1,6 +1,7 @@
 import './PageHero.css';
 import { HospitalIcon, StethoscopeIcon, MicroscopeIcon, BuildingIcon, CheckIcon, MailIcon } from '../components/Icons';
 import Reveal from '../components/Reveal';
+import { Link } from 'react-router-dom';
 
 const networkPartners = [
   {
@@ -132,7 +133,7 @@ export default function NetworksPage() {
           </Reveal>
           <Reveal delay={200}>
             <div className="page-cta-actions">
-              <a href="/reach-us" className="btn-hero btn-hero-primary">Contact Us</a>
+              <Link to="/reach-us" className="btn-hero btn-hero-primary">Contact Us</Link>
               <a href="mailto:info@apexhealthcare.site" className="btn-hero btn-hero-secondary">
                 <span className="btn-icon-inline"><MailIcon size={18} /></span> Send an Email
               </a>

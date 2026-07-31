@@ -1,5 +1,6 @@
 import './ServicesList.css';
 import Reveal from './Reveal';
+import { Link } from 'react-router-dom';
 
 const services = [
   { title: 'Clinic Consultations', desc: 'Comprehensive medical consultations and personalized treatment plans.' },
@@ -48,7 +49,7 @@ export default function ServicesList() {
                   <h3 className="service-item-title">{service.title}</h3>
                   <p className="service-item-desc">{service.desc}</p>
                 </div>
-                <a href="/reach-us" className="btn-enquire">Enquire Now</a>
+                <Link to="/reach-us" className="btn-enquire">Enquire Now</Link>
               </div>
             </Reveal>
           ))}
