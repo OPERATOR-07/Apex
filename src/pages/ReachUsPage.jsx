@@ -13,8 +13,8 @@ const contactCards = [
   {
     icon: PhoneIcon,
     title: 'Phone',
-    detail: '+255 786 844 1951',
-    detailHref: 'tel:+2557868441951',
+    detail: '+255 705 239 600',
+    detailHref: 'tel:+255705239600',
     note: 'Available 24/7 for urgent medical enquiries and emergencies.',
   },
   {
@@ -28,7 +28,7 @@ const contactCards = [
     icon: WhatsAppIcon,
     title: 'WhatsApp',
     detail: 'Chat with us on WhatsApp',
-    detailHref: 'https://wa.me/2557868441951',
+    detailHref: 'https://wa.me/255705239600',
     external: true,
     note: 'The fastest way to reach us. Send a message and our team will respond within minutes.',
   },
@@ -42,8 +42,8 @@ const contactCards = [
 ];
 
 const bookingOptions = [
-  { icon: PhoneIcon, title: 'Call Us', text: 'Speak directly with our team to schedule your appointment.', href: 'tel:+2557868441951', label: '+255 786 844 1951' },
-  { icon: WhatsAppIcon, title: 'WhatsApp', text: 'Send us a message and we\'ll confirm your appointment within minutes.', href: 'https://wa.me/2557868441951', label: 'Chat on WhatsApp', external: true },
+  { icon: PhoneIcon, title: 'Call Us', text: 'Speak directly with our team to schedule your appointment.', href: 'tel:+255705239600', label: '+255 705 239 600' },
+  { icon: WhatsAppIcon, title: 'WhatsApp', text: 'Send us a message and we\'ll confirm your appointment within minutes.', href: 'https://wa.me/255705239600', label: 'Chat on WhatsApp', external: true },
   { icon: MailIcon, title: 'Email Us', text: 'Send us your details and preferred time, and we\'ll get back to you.', href: 'mailto:info@apexhealthcare.site', label: 'Send Email' },
 ];
 

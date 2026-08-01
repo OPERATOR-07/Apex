@@ -41,7 +41,7 @@ export default function ReachUs() {
                 </svg>
               </div>
               <h3>Phone</h3>
-              <p><a href="tel:+2557868441951">+255 786 844 1951</a></p>
+              <p><a href="tel:+255705239600">+255 705 239 600</a></p>
             </div>
           </Reveal>
           <Reveal delay={240}>
@@ -64,7 +64,7 @@ export default function ReachUs() {
                 </svg>
               </div>
               <h3>WhatsApp</h3>
-              <p><a href="https://wa.me/2557868441951" target="_blank" rel="noopener noreferrer">Chat with us</a></p>
+              <p><a href="https://wa.me/255705239600" target="_blank" rel="noopener noreferrer">Chat with us</a></p>
             </div>
           </Reveal>
           <Reveal delay={400} className="reach-card-full-wrap">

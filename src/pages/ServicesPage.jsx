@@ -148,7 +148,7 @@ export default function ServicesPage() {
           <Reveal delay={200}>
             <div className="page-cta-actions">
               <Link to="/reach-us" className="btn-hero btn-hero-primary">Get in Touch</Link>
-              <a href="https://wa.me/2557868441951" target="_blank" rel="noopener noreferrer" className="btn-hero btn-hero-secondary">
+              <a href="https://wa.me/255705239600" target="_blank" rel="noopener noreferrer" className="btn-hero btn-hero-secondary">
                 <span className="btn-icon-inline"><WhatsAppIcon size={18} /></span> WhatsApp Us
               </a>
             </div>

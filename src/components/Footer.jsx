@@ -39,9 +39,10 @@ export default function Footer() {
             <h4>Contact</h4>
             <ul>
               <li>Zanzibar, Tanzania</li>
-              <li><a href="tel:+2557868441951">+255 786 844 1951</a></li>
+              <li><a href="tel:+255705239600">+255 705 239 600</a></li>
               <li><a href="mailto:info@apexhealthcare.site">Email Us</a></li>
-              <li><a href="https://wa.me/2557868441951" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+              <li><a href="https://wa.me/255705239600" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+              <li><a href="https://www.instagram.com/apexhealthcare.znz" target="_blank" rel="noopener noreferrer">Instagram</a></li>
               <li>24/7 Support</li>
             </ul>
           </div>
