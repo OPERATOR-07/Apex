@@ -41,7 +41,7 @@ export default function ServicesList() {
             <Reveal delay={(i % 2) * 120 + Math.floor(i / 2) * 60} key={i}>
               <div className="service-item">
                 <div className="service-icon">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#7b1315" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0c5cb8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
                   </svg>
                 </div>

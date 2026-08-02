@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   padding: 100px 20px;
-  background: linear-gradient(135deg, #7b1315 0%, #c4282e 40%, #ee2b36 100%);
+  background: linear-gradient(135deg, #0c5cb8 0%, #1a86fc 40%, #3c9bff 100%);
   overflow: hidden;
   min-height: 85vh;
   display: flex;
@@ -95,13 +95,13 @@
 
 .btn-hero-primary {
   background: #fff;
-  color: #7b1315;
+  color: #0c5cb8;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 }
 
 .btn-hero-primary:hover {
   background: #f0f0f0;
-  color: #7b1315;
+  color: #0c5cb8;
   transform: translateY(-2px);
   box-shadow: 0 8px 30px rgba(0,0,0,0.2);
   text-decoration: none;
@@ -160,7 +160,7 @@
 .hero-image-card strong {
   font-size: 1.6rem;
   font-weight: 700;
-  color: #7b1315;
+  color: #0c5cb8;
   line-height: 1;
 }
 

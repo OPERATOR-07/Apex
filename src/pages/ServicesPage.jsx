@@ -61,7 +61,7 @@ export default function ServicesPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="page-hero" style={{background: 'linear-gradient(135deg, #7b1315 0%, #c4282e 50%, #ee2b36 100%)'}}>
+      <section className="page-hero" style={{background: 'linear-gradient(135deg, #0c5cb8 0%, #1a86fc 50%, #3c9bff 100%)'}}>
         <div className="page-hero-overlay"></div>
         <div className="page-hero-inner">
           <Reveal className="page-hero-content" direction="left">
@@ -94,7 +94,7 @@ export default function ServicesPage() {
             <div className="page-content-inner">
               <Reveal className="service-group-header">
                 <span className="service-group-icon">
-                  <Icon size={32} color="#7b1315" />
+                  <Icon size={32} color="#0c5cb8" />
                 </span>
                 <h2>{group.title}</h2>
               </Reveal>
@@ -137,7 +137,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA */}
-      <section className="page-cta" style={{background: 'linear-gradient(135deg, #7b1315 0%, #ee2b36 100%)'}}>
+      <section className="page-cta" style={{background: 'linear-gradient(135deg, #0c5cb8 0%, #3c9bff 100%)'}}>
         <div className="page-cta-inner">
           <Reveal direction="zoom">
             <h2>Need a Service Not Listed Here?</h2>

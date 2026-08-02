@@ -15,7 +15,7 @@
 
 .services-badge {
   display: inline-block;
-  background: #7b1315;
+  background: #0c5cb8;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
@@ -28,7 +28,7 @@
 
 .services-list-header h2 {
   font-size: 2.2rem;
-  color: #7b1315;
+  color: #0c5cb8;
   margin-bottom: 10px;
 }
 
@@ -59,8 +59,8 @@
 }
 
 .service-item:hover {
-  border-color: rgba(123,19,21,0.12);
-  box-shadow: 0 8px 30px rgba(123,19,21,0.06);
+  border-color: rgba(12,92,184,0.12);
+  box-shadow: 0 8px 30px rgba(12,92,184,0.06);
   transform: translateY(-2px);
 }
 
@@ -68,7 +68,7 @@
   flex-shrink: 0;
   width: 44px;
   height: 44px;
-  background: rgba(123,19,21,0.08);
+  background: rgba(12,92,184,0.08);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -83,7 +83,7 @@
 .service-item-title {
   font-size: 1rem;
   font-weight: 700;
-  color: #7b1315;
+  color: #0c5cb8;
   margin-bottom: 4px;
 }
 
@@ -98,7 +98,7 @@
   display: inline-flex;
   align-items: center;
   white-space: nowrap;
-  background: linear-gradient(90deg, #7b1315 0%, #ee2b36 100%);
+  background: linear-gradient(90deg, #0c5cb8 0%, #3c9bff 100%);
   color: #fff;
   padding: 10px 24px;
   border-radius: 10px;

@@ -51,7 +51,7 @@ export default function ReachUsPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="page-hero" style={{background: 'linear-gradient(135deg, #7b1315 0%, #c4282e 50%, #ee2b36 100%)'}}>
+      <section className="page-hero" style={{background: 'linear-gradient(135deg, #0c5cb8 0%, #1a86fc 50%, #3c9bff 100%)'}}>
         <div className="page-hero-overlay"></div>
         <div className="page-hero-inner">
           <Reveal className="page-hero-content" direction="left">
@@ -138,7 +138,7 @@ export default function ReachUsPage() {
                 <Reveal delay={i * 140} key={i}>
                   <div className="booking-card">
                     <div className="booking-icon">
-                      <Icon size={34} color="#7b1315" />
+                      <Icon size={34} color="#0c5cb8" />
                     </div>
                     <h3>{opt.title}</h3>
                     <p>{opt.text}</p>

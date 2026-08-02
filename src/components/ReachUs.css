@@ -15,7 +15,7 @@
 
 .reach-badge {
   display: inline-block;
-  background: #7b1315;
+  background: #0c5cb8;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
@@ -28,7 +28,7 @@
 
 .reach-title {
   font-size: 2.2rem;
-  color: #7b1315;
+  color: #0c5cb8;
   margin-bottom: 12px;
 }
 
@@ -48,19 +48,19 @@
 }
 
 .reach-card {
-  background: linear-gradient(135deg, #7b1315 0%, #c4282e 60%, #ee2b36 100%);
+  background: linear-gradient(135deg, #0c5cb8 0%, #1a86fc 60%, #3c9bff 100%);
   border: 1px solid rgba(255,255,255,0.15);
   border-radius: 14px;
   padding: 28px 20px;
   text-align: center;
   color: #fff;
-  box-shadow: 0 6px 20px rgba(123,19,21,0.18);
+  box-shadow: 0 6px 20px rgba(12,92,184,0.18);
   transition: all 0.3s ease;
 }
 
 .reach-card:hover {
   border-color: rgba(255,255,255,0.35);
-  box-shadow: 0 12px 36px rgba(123,19,21,0.3);
+  box-shadow: 0 12px 36px rgba(12,92,184,0.3);
   transform: translateY(-3px);
 }
 
@@ -138,19 +138,19 @@
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
   background: transparent;
-  color: #7b1315;
-  border: 2px solid #7b1315;
+  color: #0c5cb8;
+  border: 2px solid #0c5cb8;
 }
 
 .btn-hero-secondary-outline:hover {
-  background: #7b1315;
+  background: #0c5cb8;
   color: #fff;
   transform: translateY(-2px);
   text-decoration: none;
 }
 
 .reach-actions .btn-hero-primary {
-  background: linear-gradient(90deg, #7b1315 0%, #ee2b36 100%);
+  background: linear-gradient(90deg, #0c5cb8 0%, #3c9bff 100%);
   color: #fff;
   display: inline-flex;
   align-items: center;
@@ -163,12 +163,12 @@
   transition: all 0.3s ease;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
-  box-shadow: 0 4px 20px rgba(123,19,21,0.2);
+  box-shadow: 0 4px 20px rgba(12,92,184,0.2);
 }
 
 .reach-actions .btn-hero-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(123,19,21,0.3);
+  box-shadow: 0 8px 30px rgba(12,92,184,0.3);
   color: #fff;
 }
 

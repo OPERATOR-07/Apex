@@ -28,7 +28,7 @@
 
 .about-badge {
   display: inline-block;
-  background: #7b1315;
+  background: #0c5cb8;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
@@ -41,7 +41,7 @@
 
 .about-heading {
   font-size: 2.2rem;
-  color: #7b1315;
+  color: #0c5cb8;
   margin-bottom: 20px;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .about-text strong {
-  color: #7b1315;
+  color: #0c5cb8;
 }
 
 @media (max-width: 975px) {

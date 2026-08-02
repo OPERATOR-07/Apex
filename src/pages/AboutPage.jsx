@@ -22,7 +22,7 @@ export default function AboutPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="page-hero" style={{background: 'linear-gradient(135deg, #7b1315 0%, #c4282e 50%, #ee2b36 100%)'}}>
+      <section className="page-hero" style={{background: 'linear-gradient(135deg, #0c5cb8 0%, #1a86fc 50%, #3c9bff 100%)'}}>
         <div className="page-hero-overlay"></div>
         <div className="page-hero-inner">
           <Reveal className="page-hero-content" direction="left">
@@ -93,7 +93,7 @@ export default function AboutPage() {
                 <Reveal delay={i * 120} key={i}>
                   <div className="page-value-card">
                     <div className="page-value-icon">
-                      <Icon size={34} color="#7b1315" />
+                      <Icon size={34} color="#0c5cb8" />
                     </div>
                     <h3>{v.title}</h3>
                     <p>{v.text}</p>
@@ -129,7 +129,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="page-cta" style={{background: 'linear-gradient(135deg, #7b1315 0%, #ee2b36 100%)'}}>
+      <section className="page-cta" style={{background: 'linear-gradient(135deg, #0c5cb8 0%, #3c9bff 100%)'}}>
         <div className="page-cta-inner">
           <Reveal direction="zoom">
             <h2>Ready to Experience the Apex Difference?</h2>

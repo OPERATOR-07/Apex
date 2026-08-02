@@ -15,7 +15,7 @@
 
 .network-badge {
   display: inline-block;
-  background: #7b1315;
+  background: #0c5cb8;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
@@ -28,7 +28,7 @@
 
 .network-title {
   font-size: 2.2rem;
-  color: #7b1315;
+  color: #0c5cb8;
   margin-bottom: 12px;
 }
 
@@ -51,7 +51,7 @@
   align-items: center;
   gap: 12px;
   background: #fff;
-  border: 1px solid rgba(123,19,21,0.1);
+  border: 1px solid rgba(12,92,184,0.1);
   border-radius: 12px;
   padding: 18px 20px;
   font-size: 0.95rem;
@@ -61,21 +61,21 @@
 }
 
 .network-item:hover {
-  border-color: #7b1315;
-  color: #7b1315;
-  box-shadow: 0 4px 16px rgba(123,19,21,0.08);
+  border-color: #0c5cb8;
+  color: #0c5cb8;
+  box-shadow: 0 4px 16px rgba(12,92,184,0.08);
   transform: translateY(-2px);
 }
 
 .network-item-icon {
   width: 36px;
   height: 36px;
-  background: rgba(123,19,21,0.08);
+  background: rgba(12,92,184,0.08);
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #7b1315;
+  color: #0c5cb8;
   flex-shrink: 0;
 }
 

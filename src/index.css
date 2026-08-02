@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: #9b1a1e;
+  color: #0c5cb8;
   text-decoration: underline;
 }
 
@@ -53,14 +53,14 @@ strong {
 }
 
 :root {
-  --color-primary: #7b1315;
-  --color-primary-light: #ee2b36;
-  --color-accent: #9b1a1e;
+  --color-primary: #0c5cb8;
+  --color-primary-light: #3c9bff;
+  --color-accent: #0c5cb8;
   --color-text: #565555;
   --color-bg-light: #fffcfc;
   --color-bg-white: #fff;
   --color-dark: #18191f;
-  --gradient-primary: linear-gradient(90deg, #7b1315 0%, #ee2b36 100%);
-  --gradient-button: linear-gradient(90deg, #7b1315 0%, #e92b36 100%);
+  --gradient-primary: linear-gradient(90deg, #0c5cb8 0%, #3c9bff 100%);
+  --gradient-button: linear-gradient(90deg, #0c5cb8 0%, #3c9bff 100%);
   --font-family: 'Poppins', sans-serif;
 }
