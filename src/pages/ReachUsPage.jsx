@@ -138,7 +138,7 @@ export default function ReachUsPage() {
                 <Reveal delay={i * 140} key={i}>
                   <div className="booking-card">
                     <div className="booking-icon">
-                      <Icon size={34} color="#0c5cb8" />
+                      <Icon size={34} color="#1f9d49" />
                     </div>
                     <h3>{opt.title}</h3>
                     <p>{opt.text}</p>

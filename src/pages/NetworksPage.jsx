@@ -84,7 +84,7 @@ export default function NetworksPage() {
             <div className="page-content-inner">
               <Reveal className="service-group-header">
                 <span className="service-group-icon">
-                  <Icon size={32} color="#0c5cb8" />
+                  <Icon size={32} color="#1f9d49" />
                 </span>
                 <h2>{group.category}</h2>
               </Reveal>
@@ -93,7 +93,7 @@ export default function NetworksPage() {
                   <Reveal delay={ii * 120} key={ii}>
                     <div className="network-detail-card">
                       <div className="network-detail-card-header">
-                        <CheckIcon size={18} strokeWidth={2.5} color="#0c5cb8" />
+                        <CheckIcon size={18} strokeWidth={2.5} color="#1f9d49" />
                         <h3>{item.name}</h3>
                       </div>
                       <p>{item.desc}</p>

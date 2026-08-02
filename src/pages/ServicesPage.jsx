@@ -94,7 +94,7 @@ export default function ServicesPage() {
             <div className="page-content-inner">
               <Reveal className="service-group-header">
                 <span className="service-group-icon">
-                  <Icon size={32} color="#0c5cb8" />
+                  <Icon size={32} color="#1f9d49" />
                 </span>
                 <h2>{group.title}</h2>
               </Reveal>

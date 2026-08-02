@@ -93,7 +93,7 @@ export default function AboutPage() {
                 <Reveal delay={i * 120} key={i}>
                   <div className="page-value-card">
                     <div className="page-value-icon">
-                      <Icon size={34} color="#0c5cb8" />
+                      <Icon size={34} color="#1f9d49" />
                     </div>
                     <h3>{v.title}</h3>
                     <p>{v.text}</p>
