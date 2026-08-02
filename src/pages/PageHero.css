@@ -36,7 +36,7 @@
 
 .page-hero-badge {
   display: inline-block;
-  background: rgba(255,255,255,0.15);
+  background: #1e8a3c;
   backdrop-filter: blur(6px);
   color: #fff;
   font-size: 0.75rem;

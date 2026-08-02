@@ -48,12 +48,12 @@
 
 .nav-list a:hover,
 .nav-list a.active {
-  color: #0c5cb8;
+  color: #1f9d49;
   text-decoration: none;
 }
 
 .nav-list a.active {
-  color: var(--color-primary-light);
+  color: #1f9d49;
 }
 
 /* Header action buttons */
@@ -70,7 +70,7 @@
   width: 42px;
   height: 42px;
   border-radius: 10px;
-  background: var(--gradient-button);
+  background: linear-gradient(90deg, #1f9d49 0%, #35b45d 100%);
   color: #fff;
   text-decoration: none;
   transition: opacity 0.3s ease;
