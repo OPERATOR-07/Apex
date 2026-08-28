@@ -13,12 +13,14 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  height: 70px;
+  height: 80px;
   gap: 20px;
 }
 
 .logo img {
-  width: 200px;
+  width: 260px;
+  max-height: 65px;
+  object-fit: contain;
   display: block;
 }
 
@@ -155,7 +157,7 @@
 
   .nav {
     position: fixed;
-    top: 70px;
+    top: 80px;
     left: 0;
     right: 0;
     background: #fff;
@@ -186,15 +188,16 @@
 
 @media (max-width: 575px) {
   .logo img {
-    width: 160px;
+    width: 200px;
+    max-height: 55px;
   }
 
   .header-inner {
-    height: 60px;
+    height: 70px;
     padding: 0 15px;
   }
 
   .nav {
-    top: 60px;
+    top: 70px;
   }
 }

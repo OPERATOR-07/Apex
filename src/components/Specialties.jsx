@@ -4,11 +4,11 @@ import Reveal from './Reveal';
 const specialties = [
   {
     title: 'Healthcare and Well-Being Service',
-    img: '/statics/WhatsApp Image 2026-07-25 at 21.31.11 (1).jpeg',
+    img: '/statics/service_wellbeing_hallway.jpg',
   },
   {
     title: 'Home Healthcare Services',
-    img: '/statics/WhatsApp Image 2026-07-25 at 21.31.11.jpeg',
+    img: '/statics/service_homecare_bp.jpg',
   },
   {
     title: 'Imaging and Diagnostic Services',

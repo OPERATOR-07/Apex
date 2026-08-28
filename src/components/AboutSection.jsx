@@ -8,7 +8,7 @@ export default function AboutSection() {
       <div className="about-inner">
         <Reveal direction="left" className="about-image-col">
           <img
-            src="/statics/WhatsApp Image 2026-07-25 at 21.31.10.jpeg"
+            src="/statics/about_doctor_laptop.jpg"
             alt="About Apex Healthcare"
             className="about-image"
           />
@@ -17,7 +17,7 @@ export default function AboutSection() {
           <span className="about-badge">ABOUT US</span>
           <h2 className="about-heading">Who We Are</h2>
           <p className="about-text">
-            Apex Healthcare is a modern healthcare company committed to delivering accessible,
+            Apex Healthcare is a Medical services of ISLAND CLINIC committed to delivering accessible,
             patient-centered medical services across <strong>Zanzibar</strong>. We combine clinical
             excellence with personalized care to provide a seamless healthcare experience — whether
             at our clinic, in your home, at your hotel, or through virtual consultations.

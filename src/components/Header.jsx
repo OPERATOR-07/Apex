@@ -11,8 +11,8 @@ export default function Header() {
         <div className="logo">
           <Link to="/">
             <img
-              src="/statics/Logos/Apex1.PNG"
-              alt="Apex Healthcare"
+              src="/statics/Logos/Apex_Island_Clinic_Logo.png"
+              alt="Apex Healthcare by Island Clinic"
             />
           </Link>
         </div>

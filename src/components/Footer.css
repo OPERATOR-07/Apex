@@ -12,11 +12,14 @@
 }
 
 .footer-brand {
-  flex: 0 0 260px;
+  flex: 0 0 280px;
 }
 
 .footer-logo {
-  width: 180px;
+  width: 240px;
+  background: #ffffff;
+  padding: 6px 12px;
+  border-radius: 8px;
   display: block;
   margin-bottom: 16px;
 }

@@ -29,7 +29,7 @@ export default function AboutPage() {
             <span className="page-hero-badge">ABOUT US</span>
             <h1 className="page-hero-title">Who We Are</h1>
             <p className="page-hero-text">
-              Apex Healthcare is a modern healthcare company committed to delivering accessible,
+              Apex Healthcare is a Medical services of ISLAND CLINIC committed to delivering accessible,
               patient-centered medical services across Zanzibar. We combine clinical excellence
               with personalized care to provide a seamless healthcare experience.
             </p>
@@ -120,7 +120,7 @@ export default function AboutPage() {
             </Reveal>
             <Reveal className="page-content-image" direction="right" delay={150}>
               <img
-                src="/statics/WhatsApp Image 2026-07-25 at 21.31.16 (1).jpeg"
+                src="/statics/doctor_consultation_nologo.jpg"
                 alt="Apex Healthcare consultation"
               />
             </Reveal>

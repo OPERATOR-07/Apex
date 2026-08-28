@@ -14,7 +14,7 @@ export default function Hero() {
             Built Around You.
           </h1>
           <p className="hero-text">
-            Apex Healthcare is a premium concierge healthcare provider delivering personalized
+            Apex Healthcare is a hotel and home medical service of <strong>ISLAND CLINIC</strong>, delivering personalized
             medical care across Zanzibar. From clinic consultations and home visits to hotel medical
             services, telemedicine, and coordinated specialist care — we bring quality healthcare
             closer to you, wherever you need it.
@@ -28,7 +28,7 @@ export default function Hero() {
         <div className="hero-image-col">
           <div className="hero-image-wrapper">
             <img
-              src="/statics/WhatsApp Image 2026-07-25 at 21.31.10 (1).jpeg"
+              src="/statics/hero_doctor_hotel.jpg"
               alt="Apex Healthcare — professional medical care"
               className="hero-image"
             />
