@@ -7,8 +7,8 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-brand">
           <img
-            src="/statics/Logos/Apex_Island_Clinic_Logo.png"
-            alt="Apex Healthcare by Island Clinic"
+            src="/statics/Logos/Apex_Standalone_Logo.png"
+            alt="Apex Healthcare"
             className="footer-logo"
           />
           <p className="footer-tagline">Comprehensive Care, Built Around You.</p>

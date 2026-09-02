@@ -8,7 +8,7 @@ export default function AboutSection() {
       <div className="about-inner">
         <Reveal direction="left" className="about-image-col">
           <img
-            src="/statics/about_doctor_laptop.jpg"
+            src="/statics/doctor_white_coat.jpg"
             alt="About Apex Healthcare"
             className="about-image"
           />

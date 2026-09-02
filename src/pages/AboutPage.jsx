@@ -36,7 +36,7 @@ export default function AboutPage() {
           </Reveal>
           <Reveal className="page-hero-image-col" direction="right" delay={150}>
             <img
-              src="/statics/WhatsApp Image 2026-07-25 at 21.31.10 (2).jpeg"
+              src="/statics/about_doctor_laptop.jpg"
               alt="Apex Healthcare team"
               className="page-hero-image"
             />
